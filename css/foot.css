@@ -141,9 +141,10 @@
     line-height: 24;
 }
 .service-f2 .s7{
-
+float: right;
     display:block;
     left: 0;
     position:relative;
-    float: right;
+    margin: 0;
+
 }
