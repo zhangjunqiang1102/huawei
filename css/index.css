@@ -234,5 +234,10 @@ border-bottom: 1px solid #eaeaea;
 .search-bar-key a:hover{
     color: red;
 }
-.naver-list li
+.s-dropdown{
+    display: none;
+}
+.s-dropdown:hover{
+    display: block;
+}
 
