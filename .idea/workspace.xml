@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de4f9059-1b60-41e7-b5f3-d937f6dc4649" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/d-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/d-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/d-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/d-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/small-banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/small-banner2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/small-banner3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/small-banner4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/small-banner5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/My-project/HW-integrant.html" afterPath="$PROJECT_DIR$/My-project/HW-integrant.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-    </list>
+    <list default="true" id="de4f9059-1b60-41e7-b5f3-d937f6dc4649" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -127,7 +108,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="146" />
     <option name="width" value="871" />
     <option name="height" value="692" />
@@ -287,7 +268,7 @@
     <option name="totallyTimeSpent" value="110178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18310912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
