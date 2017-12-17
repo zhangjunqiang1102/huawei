@@ -2,63 +2,486 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>华为商城</title>
     <link rel="stylesheet" href="css/reset.min.css">
-    <style>
-        html,body{
-            width: 100%;
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="banner/banner/css/index.min.css">
+    <script src="js/less-2.5.3.min.js"></script>
 
-        }
-        h2{
-            position: absolute;
-            font-weight: 400;
-            overflow: hidden;
-            font-size: 24px;
-            margin: 22px 0 12px;
-            line-height: 36px;
-
-
-        }
-        .home  li{
-            position: relative;
-            float:left;
-            margin-top: 20px;
-           font-size: 24px;
-            margin-right: 40px;
-            margin-left: 50px;
-            box-sizing: border-box;
-
-        }
-        .home a{
-            display: inline-block;
-            font-size: 16px;
-            margin: 0 10px;
-            color: #a4a4a4;
-            position: relative;
-        }
-
-        a:hover{
-           color: red;
-        }
-
-
-    </style>
 </head>
 <body>
-<div class="home clearfix">
-    <div class="h clearfix">
-        <h2>手机</h2>
-        <ul>
-            <li><a href="#">11</a></li>
-            <li><a href="#">22</a></li>
-            <li><a href="#">33</a></li>
-            <li><a href="#">44</a></li>
-            <li><a href="#">55</a></li>
-            <li><a href="#">66</a></li>
-            <li><a href="#">77</a></li>
-            <li><a href="#">88</a></li>
+<div class="shortcut">
+    <div class="layout">
+        <div class="s-sub">
+
+            <ul>
+                <li><a href="#"></a>华为官网</li>
+                <li><a href="#">荣耀官网</a></li>
+                <li><a href="#">花粉俱乐部</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">V码(优购码)</a></li>
+                <li><a href="#">企业购</a></li>
+                <li class="s-hwep hide" id="li-enterprise-preferential"></li>
+                <li><a href="#">Select Region</a></li>
+                <li>
+                    <div class="s-dropdown">
+                        <div class="h">
+                            <a class="icon-dropdown">更多精彩</a>
+                        </div>
+                        <div class="b">
+                            <div class="dropdown-more">
+                                <dl>
+                                    <dt><a href="" target="">EMUI</a></dt>
+                                    <dt><a href="" target="_blank">应用市场</a></dt>
+                                    <dt><a href="">云服务</a></dt>
+                                    <dt><a href="">开发者联盟</a></dt>
+                                </dl>
+                                <div class="code">
+                                    <a href="">
+                                        <img src="https://res.vmallres.com/appdownload/home/qrcode_vmall_new_app01.png?20170221">
+                                    </a>
+                                    <p>扫一扫，<a href="">下载客户端</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="s-main clearfix">
+            <ul>
+                <li><a href="#">登入</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">购物车</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="header">
+    <div class="layout">
+        <div class="left clearfix">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="naver">
+                <ul class="clearfix">
+                    <ul id="naver-list">
+                        <li>
+                            <a href="#">
+                                <span>华为专区</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>荣耀专区</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>HUAWEI Mate10</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>荣耀9</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>HUAWEI P10</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>荣耀V9</span>
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="right clearfix">
+                <div class="search-bar">
+                    <div class="search-bar-form">
+                        <form method="get">
+                            <input type="text" class="text">
+                            <input type="submit" class="button">
+                            <input type="hidden">
+                        </form>
+                    </div>
+                    <div class="search-bar-from">
+                        <div class="search-bar-key">
+                            <a href="#">HUAWEI Mate 10</a>
+                            <a href="#">荣耀V10</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="bigBannerRender">
+    <!--banner-->
+    <div class="container" id="container">
+        <!--wrapper img-->
+        <ul class="wrapper clearfix">
+            <!--      <li class="slide" style="background: url('img/4.jpg') 50% 0  no-repeat">
+                      <a href="#" target="_blank"></a>
+                  </li>-->
+        </ul>
+
+        <!--focus-->
+        <ul class="focusBox clearfix">
+            <!--<li class="select"></li>-->
+        </ul>
+    </div>
+
+    <!--首页详情-->
+    <div class="bg" id="bg">
+        <ul class="category-list" id="category-list">
+            <li class="c-list">
+                <h3><a href="https://www.vmall.com/list-36">手机</a></h3>
+                <a href="https://www.vmall.com/list-36">荣耀</a>
+                <a href="https://www.vmall.com/list-36">HUAWEI P系列</a>
+                <span></span>
+            </li>
+            <li class="c-list">
+                <h3><a href="https://www.vmall.com/list-36">笔记本 & 平板</a></h3>
+                <a href="https://www.vmall.com/list-36">平板电脑</a>
+                <a href="https://www.vmall.com/list-36">笔记本电脑</a>
+                <span></span>
+            </li>
+            <li class="c-list">
+                <h3><a href="https://www.vmall.com/list-36">穿戴</a></h3>
+                <a href="https://www.vmall.com/list-36">手环</a>
+                <a href="https://www.vmall.com/list-36">手表</a>
+                <span></span>
+            </li>
+            <li class="c-list">
+                <h3><a href="https://www.vmall.com/list-36">智能家居</a></h3>
+                <a href="https://www.vmall.com/list-36">子母路由</a>
+                <a href="https://www.vmall.com/list-36">电视盒子</a>
+                <a href="https://www.vmall.com/list-36">路由器</a>
+                <span></span>
+            </li>
+            <li class="c-list">
+                <h3><a href="https://www.vmall.com/list-36">通用配件</a></h3>
+                <a href="https://www.vmall.com/list-36">移动电源</a>
+                <a href="https://www.vmall.com/list-36">耳机</a>
+                <a href="https://www.vmall.com/list-36">音响</a>
+                <span></span>
+            </li>
+            <li class="c-list">
+                <h3><a href="https://www.vmall.com/list-36">专属配件</a></h3>
+                <a href="https://www.vmall.com/list-36">保护壳</a>
+                <a href="https://www.vmall.com/list-36">保护套</a>
+                <a href="https://www.vmall.com/list-36">贴膜</a>
+                <span></span>
+            </li>
+        </ul>
+        <div class="category-detail">
+            <div class="p-title">浏览手机频道</div>
+            <ul class="p-list clearfix">
+                <li><a href="#">手机手机</a></li>
+                <li><a href="#">手机手机</a></li>
+            </ul>
+            <div class="p-pic clearfix">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-1.jpg" alt="">
+                            <h3>荣耀V9</h3>
+                            <p>￥2399</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-2.jpg" alt="">
+                            <h3>荣耀分布式路由（白色）</h3>
+                            <p>￥899</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-3.jpg" alt="">
+                            <h3>荣耀畅玩平板</h3>
+                            <p>￥999</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-4.jpg" alt="">
+                            <h3>荣耀9 炫彩保护壳</h3>
+                            <p>￥109</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="category-detail">
+            <div class="p-title">浏览笔记本 & 平板频道</div>
+            <ul class="p-list clearfix">
+                <li><a href="#">平板电脑</a></li>
+                <li><a href="#">笔记本电脑</a></li>
+                <li><a href="#">笔记本配件</a></li>
+            </ul>
+            <div class="p-pic clearfix">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-1.jpg" alt="">
+                            <h3>荣耀V9</h3>
+                            <p>￥2399</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-2.jpg" alt="">
+                            <h3>荣耀分布式路由（白色）</h3>
+                            <p>￥899</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-3.jpg" alt="">
+                            <h3>荣耀畅玩平板</h3>
+                            <p>￥999</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-4.jpg" alt="">
+                            <h3>荣耀9 炫彩保护壳</h3>
+                            <p>￥109</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="category-detail">
+            <div class="p-title">浏览穿戴频道</div>
+            <ul class="p-list clearfix">
+                <li><a href="#">手环</a></li>
+                <li><a href="#">手表</a></li>
+            </ul>
+            <div class="p-pic clearfix">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-1.jpg" alt="">
+                            <h3>荣耀V9</h3>
+                            <p>￥2399</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-2.jpg" alt="">
+                            <h3>荣耀分布式路由（白色）</h3>
+                            <p>￥899</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-3.jpg" alt="">
+                            <h3>荣耀畅玩平板</h3>
+                            <p>￥999</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-4.jpg" alt="">
+                            <h3>荣耀9 炫彩保护壳</h3>
+                            <p>￥109</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="category-detail">
+            <div class="p-title">浏览智能家居频道</div>
+            <ul class="p-list clearfix">
+                <li><a href="#">子母路由</a></li>
+                <li><a href="#">电视盒子</a></li>
+                <li><a href="#">路由器</a></li>
+                <li><a href="#">电力猫</a></li>
+                <li><a href="#">随行wifi</a></li>
+                <li><a href="#">HUAWEI HiLink生态产品</a></li>
+            </ul>
+            <div class="p-pic clearfix">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-1.jpg" alt="">
+                            <h3>荣耀V9</h3>
+                            <p>￥2399</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-2.jpg" alt="">
+                            <h3>荣耀分布式路由（白色）</h3>
+                            <p>￥899</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-3.jpg" alt="">
+                            <h3>荣耀畅玩平板</h3>
+                            <p>￥999</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-4.jpg" alt="">
+                            <h3>荣耀9 炫彩保护壳</h3>
+                            <p>￥109</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="category-detail">
+            <div class="p-title">浏览通用配件频道</div>
+            <ul class="p-list clearfix">
+                <li><a href="#">移动电源</a></li>
+                <li><a href="#">耳机</a></li>
+                <li><a href="#">音箱</a></li>
+                <li><a href="#">自拍杆/支架</a></li>
+                <li><a href="#">充电器/线材</a></li>
+                <li><a href="#">U盘/存储卡</a></li>
+                <li><a href="#">排插</a></li>
+                <li><a href="#">摄像机/镜头</a></li>
+                <li><a href="#">智能硬件</a></li>
+                <li><a href="#">生活周边</a></li>
+            </ul>
+            <div class="p-pic clearfix">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-1.jpg" alt="">
+                            <h3>荣耀V9</h3>
+                            <p>￥2399</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-2.jpg" alt="">
+                            <h3>荣耀分布式路由（白色）</h3>
+                            <p>￥899</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-3.jpg" alt="">
+                            <h3>荣耀畅玩平板</h3>
+                            <p>￥999</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-4.jpg" alt="">
+                            <h3>荣耀9 炫彩保护壳</h3>
+                            <p>￥109</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="category-detail">
+            <div class="p-title">浏览专属配件频道</div>
+            <ul class="p-list clearfix">
+                <li><a href="#">保护壳</a></li>
+                <li><a href="#">保护套</a></li>
+                <li><a href="#">贴膜</a></li>
+                <li><a href="#">盒子专属配件</a></li>
+                <li><a href="#">表带</a></li>
+            </ul>
+            <div class="p-pic clearfix">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-1.jpg" alt="">
+                            <h3>荣耀V9</h3>
+                            <p>￥2399</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-2.jpg" alt="">
+                            <h3>荣耀分布式路由（白色）</h3>
+                            <p>￥899</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-3.jpg" alt="">
+                            <h3>荣耀畅玩平板</h3>
+                            <p>￥999</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/d-4.jpg" alt="">
+                            <h3>荣耀9 炫彩保护壳</h3>
+                            <p>￥109</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="smallBanner">
+    <div class="s-container" id="s-container">
+        <ul class="s-wrapper">
+            <li class="s-slide">
+                <a href="#"><img src="img/small-banner1.jpg" alt=""></a>
+            </li>
+            <li class="s-slide">
+                <a href="#"><img src="img/small-banner2.jpg" alt=""></a>
+            </li>
+            <li class="s-slide">
+                <a href="#"><img src="img/small-banner3.jpg" alt=""></a>
+            </li>
+            <li class="s-slide">
+                <a href="#"><img src="img/small-banner4.jpg" alt=""></a>
+            </li>
+            <li class="s-slide">
+                <a href="#"><img src="img/small-banner5.png" alt=""></a>
+            </li>
+        </ul>
+        <ul class="s-focus">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
         </ul>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/utils.min.js"></script>
+<script src="js/animate.min.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bannerJQ.js"></script>
 </body>
 </html>
