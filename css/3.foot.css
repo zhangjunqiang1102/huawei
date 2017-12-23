@@ -86,11 +86,13 @@
 
 
 .service .service-l dl {
-    width: 16.66667%;
+
+padding-right: 10px;
 }
 
 .service dt {
     font-size: 14px;
+    padding: 0 30px 1px 18px;
     color: #3a3a3a;
 }
 
@@ -108,7 +110,7 @@
     display: block;
     border-left: none;
     padding-left: 0;
-    line-height: 1.5 !important;
+    /*line-height: 1.5 !important;*/
     margin-bottom: 0 !important;
 }
 
@@ -195,7 +197,7 @@ display: block;
     width: 210px;
     min-height: 164px;
     margin-top: 2px;
-    padding-left: 40px;
+    padding: 2px 12px 0 120px;
 }
 
 .btn-line-primary i {
